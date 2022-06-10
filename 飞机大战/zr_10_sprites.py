@@ -51,7 +51,7 @@ class Enemy(GameSprite):
 
     def __init__(self):
         # 1. 调用父类方法，创建敌机精灵，同时指定敌机图片
-        super().__init__("./images/zhangxingyue.png")
+        super().__init__("./images/enemy1.png")
         # 2. 指定敌机的初始随机速度1-3
         self.speed = random.randint(5, 8)
 
